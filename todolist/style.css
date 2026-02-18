@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color1: #021F59;
+    --color2: #03258C;
+    --color3: #033E8C;
+}
+
+body {
+    background-image: linear-gradient(rgba(200,200,200,0.4), rgba(200,200,200,0.4)), url(./imagem/post-it.jpg);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    color: var(--color1);
+    font-weight: 200;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+    outline: none;
+}
+
+button {
+    padding: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: var(--color1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: var(--color2);
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: var(--color3);
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 340px;
+}
+
+li {
+    background-color: #00000046;
+    color: rgba(0, 0, 0, 0.719);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: auto 100%;
+    }
+}
