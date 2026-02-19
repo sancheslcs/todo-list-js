@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(200,200,200,0.4), rgba(200,200,200,0.4)), url(./imagem/post-it.jpg);
+    background-image: linear-gradient(rgba(200,200,200,0.4), rgba(200,200,200,0.4)), url(post-it.jpg);
     
     display: flex;
     justify-content: center;
@@ -92,3 +92,4 @@ span {
         background-size: auto 100%;
     }
 }
+
