@@ -37,6 +37,7 @@ h1 {
 input {
     width: 250px;
     height: 40px;
+    font-size: 16px;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     border-radius: 5px;
@@ -92,4 +93,5 @@ span {
         background-size: auto 100%;
     }
 }
+
 
